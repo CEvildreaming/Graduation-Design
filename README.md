@@ -21,3 +21,5 @@ system.py是医学图像分类系统脚本。分类脚本不要对拿来训练�
 另外诸多论文图片的绘制代码删了一部分，但保留了训练曲线绘制，如Draw.py。
 
 同时训练曲线也可以用tensorboard功能绘制。每个训练器脚本训练完会有一个事件文件例如:events.out.tfevents.1747599759.autodl-container-a09f4e8ad1-cca672ef，这个可以用tensorboard绘制。具体方法不详细讲。另外也有一个txt文件，完整记录了训练日志。可以用Draw.py绘制漂亮的曲线，包括训练曲线、损失曲线、学习率变化曲线，其中训练曲线和损失曲线又分为训练和验证两种。
+
+另外对比试验和消融试验内存太大，没有放在github上面，实验过程的所有文件（包括各种模型权重文件，训练日志文件以及多种可视化图片以及tensorboardX的事件文件）都在百度网盘：通过网盘分享的文件：Result链接: https://pan.baidu.com/s/1pJf-t-VNEcVPC9KWkVDZLA 提取码: n69j
